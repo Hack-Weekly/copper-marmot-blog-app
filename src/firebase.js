@@ -12,13 +12,12 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCCHIamtPGfDnKOuMbvyXY7iEnn18fCfG4",
-  authDomain: "copper-marmot-chat.firebaseapp.com",
-  projectId: "copper-marmot-chat",
-  storageBucket: "copper-marmot-chat.appspot.com",
-  messagingSenderId: "865026533470",
-  appId: "1:865026533470:web:b01b3977769497e32eaccf",
-  measurementId: "G-8N5HBHZRQQ",
+  apiKey: "AIzaSyAonbLKqbQDR4maPYZqF9bQOs3VlNj6FSY",
+  authDomain: "copper-marmot-blog-app.firebaseapp.com",
+  projectId: "copper-marmot-blog-app",
+  storageBucket: "copper-marmot-blog-app.appspot.com",
+  messagingSenderId: "894155339223",
+  appId: "1:894155339223:web:8dc990f3cf23c6f0eec792",
 };
 
 // Initialize Firebase
