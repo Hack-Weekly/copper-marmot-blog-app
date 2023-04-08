@@ -6,6 +6,7 @@ import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Register, { action as registerAction } from "./routes/register";
 import Login, { action as loginAction } from "./routes/login";
+import AddPost, { action as addPostAction } from "./routes/addPost";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
         element: <Login />,
         action: loginAction,
       },
+      {
+        path: "addPost",
+        element: <AddPost />,
+        action: addPostAction
+      }
     ],
   },
 ]);

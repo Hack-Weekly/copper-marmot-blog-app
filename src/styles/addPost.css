@@ -1,0 +1,18 @@
+.addPost-ct form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+.addPost-ct form input {
+  width: 50%;
+  max-width: 400px;
+}
+.addPost-ct form textarea {
+  width: 50%;
+  height: 10em;
+}
+.addPost-ct form button {
+  width: 25%;
+  max-width: 200px;
+}/*# sourceMappingURL=addPost.css.map */

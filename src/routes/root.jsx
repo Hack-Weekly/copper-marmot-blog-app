@@ -29,6 +29,11 @@ export default function Root() {
             <button>Login</button>
           </Link>
         </div>
+        <div>
+          <Link to={"addPost"}>
+            <button>Add Post</button>
+          </Link>
+        </div>
       </header>
       <div id="detail">
         <Outlet />

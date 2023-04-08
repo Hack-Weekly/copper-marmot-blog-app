@@ -1,7 +1,7 @@
 import { Form } from "react-router-dom";
 import { useState } from "react";
 
-import { createUser } from "../firebase";
+import { createUser } from "../firebase/users";
 
 export async function action({ request }) {
   const formData = await request.formData();
