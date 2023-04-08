@@ -9,7 +9,7 @@ import Login, { action as loginAction } from "./routes/login";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/copper-marmot-blog-app/",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
