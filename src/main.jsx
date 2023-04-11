@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import Root from "./routes/root";
+import Root, { loader as rootLoader } from "./routes/root";
 import ErrorPage from "./error-page";
 import Register, { action as registerAction } from "./routes/register";
 import Login, { action as loginAction } from "./routes/login";
@@ -13,6 +13,7 @@ const router = createBrowserRouter([
     path: "/copper-marmot-blog-app/",
     element: <Root />,
     errorElement: <ErrorPage />,
+    loader: rootLoader,
     children: [
       {
         path: "register",
@@ -27,8 +28,8 @@ const router = createBrowserRouter([
       {
         path: "addPost",
         element: <AddPost />,
-        action: addPostAction
-      }
+        action: addPostAction,
+      },
     ],
   },
 ]);
